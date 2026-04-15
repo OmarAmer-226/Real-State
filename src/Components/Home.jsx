@@ -1,10 +1,11 @@
-import React from "react";
+
 import { motion } from "framer-motion";
+import bgImg from "../assets/header-img2"
 function Home() {
   return (
     <div
       className=" min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden relative"
-      style={{ backgroundImage: "url('/src/assets/header-img2.jpg')" }}
+      style={{ backgroundImage: `url(${bgImg})` }}
       id="Header"
     >
       <div className=" bg-black opacity-42 w-full min-h-screen absolute"></div>
