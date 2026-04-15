@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import bgImg from "../assets/header-img2.jpg"
+import bgImg from "/public/header-img2"
 function Home() {
   return (
     <div
