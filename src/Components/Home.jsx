@@ -1,14 +1,14 @@
 
 import { motion } from "framer-motion";
-import bgImg from "/public/header-img2"
+
 function Home() {
   return (
     <div
       className=" min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden relative"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      style={{ backgroundImage: url("/Real-State/header-img2.jpg") }}
       id="Header"
     >
-      <div className=" bg-black/42  w-full min-h-screen absolute"></div>
+      
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5 }}
