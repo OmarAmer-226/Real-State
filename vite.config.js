@@ -8,8 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base:'/Real-State/',
   server:{
     port:3000,
   },
-  base:'/Real-State/'
 })
